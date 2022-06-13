@@ -64,7 +64,7 @@ function teamNames(){
     for (let gameKey in game){
         names.push(game[gameKey].teamName)
     }
-    console.log(names)
+    return names
 }
 
 // Returns an array of jersey numbers for a specific team
